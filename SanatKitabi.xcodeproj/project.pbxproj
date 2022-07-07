@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFFE4F9285EFF0A00A481B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFE4F8285EFF0A00A481B6 /* AppDelegate.swift */; };
+		BFFFE4FB285EFF0A00A481B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFE4FA285EFF0A00A481B6 /* SceneDelegate.swift */; };
+		BFFFE4FD285EFF0A00A481B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFE4FC285EFF0A00A481B6 /* ViewController.swift */; };
+		BFFFE500285EFF0A00A481B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFFE4FE285EFF0A00A481B6 /* Main.storyboard */; };
+		BFFFE503285EFF0A00A481B6 /* SanatKitabi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFFFE501285EFF0A00A481B6 /* SanatKitabi.xcdatamodeld */; };
+		BFFFE505285EFF0D00A481B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFFE504285EFF0D00A481B6 /* Assets.xcassets */; };
+		BFFFE508285EFF0D00A481B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFFE506285EFF0D00A481B6 /* LaunchScreen.storyboard */; };
+		BFFFE51028684D9800A481B6 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFE50F28684D9700A481B6 /* DetailsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFFFE4F5285EFF0A00A481B6 /* SanatKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanatKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFFE4F8285EFF0A00A481B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFFFE4FA285EFF0A00A481B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFFFE4FC285EFF0A00A481B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFFFE4FF285EFF0A00A481B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFFE502285EFF0A00A481B6 /* SanatKitabi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SanatKitabi.xcdatamodel; sourceTree = "<group>"; };
+		BFFFE504285EFF0D00A481B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFFE507285EFF0D00A481B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFFFE509285EFF0D00A481B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFFE50F28684D9700A481B6 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFFE4F2285EFF0A00A481B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFFE4EC285EFF0A00A481B6 = {
+			isa = PBXGroup;
+			children = (
+				BFFFE4F7285EFF0A00A481B6 /* SanatKitabi */,
+				BFFFE4F6285EFF0A00A481B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFFE4F6285EFF0A00A481B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFE4F5285EFF0A00A481B6 /* SanatKitabi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFFE4F7285EFF0A00A481B6 /* SanatKitabi */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFE4F8285EFF0A00A481B6 /* AppDelegate.swift */,
+				BFFFE4FA285EFF0A00A481B6 /* SceneDelegate.swift */,
+				BFFFE4FC285EFF0A00A481B6 /* ViewController.swift */,
+				BFFFE4FE285EFF0A00A481B6 /* Main.storyboard */,
+				BFFFE50F28684D9700A481B6 /* DetailsVC.swift */,
+				BFFFE504285EFF0D00A481B6 /* Assets.xcassets */,
+				BFFFE506285EFF0D00A481B6 /* LaunchScreen.storyboard */,
+				BFFFE509285EFF0D00A481B6 /* Info.plist */,
+				BFFFE501285EFF0A00A481B6 /* SanatKitabi.xcdatamodeld */,
+			);
+			path = SanatKitabi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFFE4F4285EFF0A00A481B6 /* SanatKitabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFFE50C285EFF0D00A481B6 /* Build configuration list for PBXNativeTarget "SanatKitabi" */;
+			buildPhases = (
+				BFFFE4F1285EFF0A00A481B6 /* Sources */,
+				BFFFE4F2285EFF0A00A481B6 /* Frameworks */,
+				BFFFE4F3285EFF0A00A481B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanatKitabi;
+			productName = SanatKitabi;
+			productReference = BFFFE4F5285EFF0A00A481B6 /* SanatKitabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFFE4ED285EFF0A00A481B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BFFFE4F4285EFF0A00A481B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BFFFE4F0285EFF0A00A481B6 /* Build configuration list for PBXProject "SanatKitabi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFFE4EC285EFF0A00A481B6;
+			productRefGroup = BFFFE4F6285EFF0A00A481B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFFE4F4285EFF0A00A481B6 /* SanatKitabi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFFE4F3285EFF0A00A481B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFFE508285EFF0D00A481B6 /* LaunchScreen.storyboard in Resources */,
+				BFFFE505285EFF0D00A481B6 /* Assets.xcassets in Resources */,
+				BFFFE500285EFF0A00A481B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFFE4F1285EFF0A00A481B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFFE4FD285EFF0A00A481B6 /* ViewController.swift in Sources */,
+				BFFFE4F9285EFF0A00A481B6 /* AppDelegate.swift in Sources */,
+				BFFFE4FB285EFF0A00A481B6 /* SceneDelegate.swift in Sources */,
+				BFFFE503285EFF0A00A481B6 /* SanatKitabi.xcdatamodeld in Sources */,
+				BFFFE51028684D9800A481B6 /* DetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFFE4FE285EFF0A00A481B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFFE4FF285EFF0A00A481B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFFE506285EFF0D00A481B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFFE507285EFF0D00A481B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFFE50A285EFF0D00A481B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFFFE50B285EFF0D00A481B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFFE50D285EFF0D00A481B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68M6FDGMA6;
+				INFOPLIST_FILE = SanatKitabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlperErden.SanatKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFFE50E285EFF0D00A481B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68M6FDGMA6;
+				INFOPLIST_FILE = SanatKitabi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlperErden.SanatKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFFE4F0285EFF0A00A481B6 /* Build configuration list for PBXProject "SanatKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFFE50A285EFF0D00A481B6 /* Debug */,
+				BFFFE50B285EFF0D00A481B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFFE50C285EFF0D00A481B6 /* Build configuration list for PBXNativeTarget "SanatKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFFE50D285EFF0D00A481B6 /* Debug */,
+				BFFFE50E285EFF0D00A481B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFFFE501285EFF0A00A481B6 /* SanatKitabi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFFFE502285EFF0A00A481B6 /* SanatKitabi.xcdatamodel */,
+			);
+			currentVersion = BFFFE502285EFF0A00A481B6 /* SanatKitabi.xcdatamodel */;
+			path = SanatKitabi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFFFE4ED285EFF0A00A481B6 /* Project object */;
+}
